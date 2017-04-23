@@ -4,17 +4,16 @@ import os
 from fabric.api import *
 import nmap
 env.disable_known_hosts = True
-hu_file=open("hosts_and_users.txt","w")
-
+hu_file=open("hosts_and_users.csv","w")
 
 def run_main_script(file_name):
-		script_file = open('{0}'.format(file_name))
-		run(script_file.read())
-		script_file.close()
+	script_file = open('{0}'.format(file_name))
+	run(script_file.read())
+	script_file.close()
 
 def learn_hostname():
 	x = str(run("echo $USER"))
-	hu_file.write(x+" "+str(run("hostname -I")))
+	hu_file.write(x+","+str(run("hostname -I")))
 
 def backup_host():
 	run_main_script("backup_host.sh")
