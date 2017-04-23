@@ -9,7 +9,7 @@ def hallo():
     return "hallo"
 
 class Machines(Resource):
-    
+
 
     def get(self,ip):
         x = socket.gethostbyaddr(ip)

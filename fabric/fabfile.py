@@ -15,7 +15,8 @@ def backup_host():
 
 def awake_apache():
 	run_main_script ("awake_apache.sh")
-
+def awake_db(db_name):
+	run_main_script ("db_awake.sh")
 
 '''def awake_nginx():
 ##Write Tests Git Integration
