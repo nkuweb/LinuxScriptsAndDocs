@@ -15,8 +15,8 @@ def learn_hostname():
 	x = str(run("echo $USER"))
 	hu_file.write(x+","+str(run("hostname -I")))
 
-def backup_host():
-	run_main_script("backup_host.sh")
+#def backup_host():
+#	run_main_script("backup_host.sh")
 
 def awake_apache():
 	run_main_script ("awake_apache.sh")
