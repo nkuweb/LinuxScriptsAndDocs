@@ -1,2 +1,2 @@
 <?php
-echo "Sen de mi Leyla ? " ?>
+echo "Sende mi Leyla ? " ?>
