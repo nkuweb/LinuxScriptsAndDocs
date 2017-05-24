@@ -1,12 +1,12 @@
 # Git Server Usage
 Accept your HOST_KEY is written into 
-'''sh
+```sh
 $ mykey_file >>  ~/.ssh/authorized_key
-'''
+```
 And you have a permission to the Git Server.
-'''sh
+```sh
 $ git remote add [YOUR_USER_NAME] root@[GIT_SERVER_IP]:/[REPOSITORY_PATH]
-'''
+```
 You have the remote acces to the git repository
 You can start standart git process for versioning your own project.
 
