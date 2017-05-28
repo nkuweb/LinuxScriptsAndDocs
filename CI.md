@@ -52,9 +52,9 @@ Buradaki görüntüye dikkat edelim beyler.Compare & Pull Request'e basalım ve 
 Burada PR mesajları yazıp Commitleyelim.
 
 
-Conflict durumunu gördükten sonra olası bir problem var mı yok mu bakıyoruz.(ONUN İÇİN AYRI YAZI YAZICAM. :-)))
-![PR mesajları](happy.png)
-
 Son olarak contributorstan network ' e basınca branchlerin durumunu görüyoruz.
 ![PR mesajları](5.png)
 Sorular için Telegram Grubuna yazınız iyi kod yazmalar.:)))
+# SON OLARAK
+Commitler PR kapanana kadar genel olarak aynı Pull Request altında toplanır.
+
