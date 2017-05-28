@@ -1,0 +1,12 @@
+web:
+    image: nginx:latest
+    ports:
+        - "8080:80"
+    volumes:
+        - .:/project_file
+    links:
+        - php
+php:
+    image: php:7-fpm
+    volumes:
+        - .:/project_file
