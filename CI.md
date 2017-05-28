@@ -55,6 +55,15 @@ Burada PR mesajları yazıp Commitleyelim.
 Son olarak contributorstan network ' e basınca branchlerin durumunu görüyoruz.
 ![PR mesajları](5.png)
 Sorular için Telegram Grubuna yazınız iyi kod yazmalar.:)))
+# Değişiklikleri Sisteme Entegre Etmek
+Burada bazı hususlar mevcut.Mesela ben developer branchindeyim bu durumda değişiklikleri pull ederken
+belli başlı trickler mevcut:
+```sh
+    $ git checkout master ##MASTER'daki değişikleri almak için master'a geçiyoruz
+    $ git pull origin master dedikten sonra değişiklikleri alıyoruz.
+    
+```
+
 # SON OLARAK
 Commitler PR kapanana kadar genel olarak aynı Pull Request altında toplanır.
 
