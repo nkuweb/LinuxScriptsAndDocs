@@ -60,7 +60,7 @@ Burada bazı hususlar mevcut.Mesela ben developer branchindeyim bu durumda deği
 belli başlı trickler mevcut:
 ```sh
     $ git checkout master ##MASTER'daki değişikleri almak için master'a geçiyoruz
-    $ git pull origin master dedikten sonra değişiklikleri alıyoruz.
+    $ git pull origin master ##dedikten sonra değişiklikleri alıyoruz.
     
 ```
 
