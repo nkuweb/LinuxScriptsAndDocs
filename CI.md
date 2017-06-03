@@ -63,6 +63,14 @@ belli başlı trickler mevcut:
     $ git pull origin master ##dedikten sonra değişiklikleri alıyoruz.
     
 ```
+# FORKLADIĞIMIZ BİR PROJE ÜZERİNDEN GİTMEK
+  En başta belirttiğimiz bütün olaylar contributoru olduğumuz bir sistemde yapılabilecek şeyler.Ama hiç bilmediğimiz member'ı olmadığımız bir projeye destek vermek istersek işler biraz değişiyor aslında.Orada önce;
+    # forklayıp 
+ardından da kendi branchimiz üzerinden bir PR atmamız gerekiyor.Eğer kabul edilirse zaten sürekli o branch üzerinden gidebiliyoruz ve PR'ı oradan atıyoruz.
+```sh
+    $ git pull origin master 
+```
+deyip çekebiliriz.
 
 # SON OLARAK
 Commitler PR kapanana kadar genel olarak aynı Pull Request altında toplanır.
